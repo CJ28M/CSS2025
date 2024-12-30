@@ -1,0 +1,14 @@
+#text-one,
+#div-one,
+#span-one {
+  color: red;
+}
+
+#text-two,
+#div-three {
+  color: green;
+}
+
+#span-three {
+  color: blueviolet;
+}

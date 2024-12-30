@@ -1,0 +1,19 @@
+[data-type] {
+  color: blue;
+}
+
+[class="text"] {
+  color: purple;
+}
+
+[id="text-three"] {
+  color: lime;
+}
+
+[data-type="red-text"] {
+  color: red;
+}
+
+[data-type="green-text"] {
+  color: green;
+}

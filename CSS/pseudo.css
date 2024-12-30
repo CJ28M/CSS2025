@@ -1,0 +1,54 @@
+::selection {
+  background-color: blueviolet;
+  color: white;
+}
+
+li {
+  color: green;
+}
+
+li::marker {
+  color: red;
+  content: "\2192 ";
+}
+
+ul {
+  list-style: square;
+}
+
+textarea {
+  color: aqua;
+}
+
+textarea::placeholder {
+  color: green;
+}
+
+/* p::selection {
+  background-color: blueviolet;
+  color: white;
+} */
+
+.quoted {
+  color: orangered;
+}
+
+p::before {
+  content: "\201C";
+  color: orange;
+}
+
+p::after {
+  content: "\201D";
+  color: green;
+}
+
+.quoted::before {
+  content: "\201C";
+  color: lime;
+}
+
+.quoted::after {
+  content: \201D;
+  color: pink;
+}

@@ -1,0 +1,67 @@
+/* :root {
+  color: chocolate;
+} */
+
+:root {
+  --main-color: aqua;
+}
+
+a {
+  color: tomato;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: green;
+}
+
+/* a:active {
+  color: blue;
+} */
+
+a:active {
+  color: var(--main-color);
+}
+
+li:first-of-type {
+  color: green;
+}
+
+li:last-of-type {
+  color: red;
+}
+
+/* li:nth-of-type(4) {
+  color: blue;
+} */
+
+li:nth-of-type(4) {
+  color: var(--main-color);
+}
+
+li:nth-of-type(odd) {
+  color: chocolate;
+}
+
+li:nth-of-type(2n + 1) {
+  color: lime;
+}
+
+/* li:nth-child(3 of li.special) {
+  color: blue;
+} */
+
+li:nth-child(3 of li.special) {
+  color: var(--main-color);
+}
+
+ul:has(.special) {
+  list-style-type: none;
+}
+
+ul:has(.special):has(.active)::before {
+  content: "This is the selected unordered list";
+}

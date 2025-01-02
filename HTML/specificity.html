@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/specificity.css">
+  <title>Specificity</title>
+</head>
+
+<body>
+
+  <h1>Specificity</h1>
+
+  <nav>
+    <a href="">text</a>
+    <a href="">text</a>
+    <a href="">text</a>
+    <a href="">text</a>
+    <a href="">text</a>
+    <a href="">text</a>
+    <a href="">text</a>
+
+  </nav>
+  <hr>
+
+
+  <img src="/images/specificity.png" alt="specificity" width="500px" height="300px">
+
+  <table>
+    <tr>
+      <th>Example</th>
+      <th>Type</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td class="example">#first {} </td>
+      <td>ID Selector</td>
+      <td class="score">100</td>
+    </tr>
+    <tr>
+      <td class="example">.text {} </td>
+      <td>Class Selector</td>
+      <td class="score">010</td>
+    </tr>
+    <tr>
+      <td class="example">[data-type="long-text"] {} </td>
+      <td>Attribute Selector</td>
+      <td class="score">010</td>
+    </tr>
+    <tr>
+      <td class="example">p {} </td>
+      <td>Type Selector</td>
+      <td class="score">001</td>
+    </tr>
+    <tr>
+      <td class="example">p#first.red {} </td>
+      <td>Compound Selector</td>
+      <td class="score">111</td>
+    </tr>
+    <tr>
+      <td class="example">p#first {} </td>
+      <td>Compound Selector</td>
+      <td class="score">101</td>
+    </tr>
+    <tr>
+      <td class="example">p.text {} </td>
+      <td>Compound Selector</td>
+      <td class="score">011</td>
+    </tr>
+    <tr>
+      <td class="example">.page-content #first {} </td>
+      <td>Complex Selector</td>
+      <td class="score">110</td>
+    </tr>
+    <tr>
+      <td class="example">div #first {} </td>
+      <td>Complex Selector</td>
+      <td class="score">101</td>
+    </tr>
+    <tr>
+      <td class="example">.page-content .red {} </td>
+      <td>Complex Selector</td>
+      <td class="score">020</td>
+    </tr>
+  </table>
+</body>
+
+</html>

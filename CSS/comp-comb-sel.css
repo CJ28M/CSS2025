@@ -1,0 +1,45 @@
+/* a.item {
+  color: tomato;
+}
+
+a.active {
+  color: green;
+}
+
+p#first.text.intro-text.item[data-type="full-text"] {
+  color: blue;
+}
+
+main p#first {
+  color: green;
+}
+
+main section p {
+  color: blueviolet;
+}
+
+ul a {
+  color: lime;
+}
+
+ul a.active {
+  color: brown;
+} */
+
+/* DIRECT CHILD */
+
+/* main > p {
+  color: green;
+} */
+
+/* next-sebling comnbinator */
+
+/* p + span {
+  color: aqua;
+} */
+
+/* subsequent-sibling combinator */
+
+p ~ span {
+  color: tomato;
+}

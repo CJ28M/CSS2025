@@ -1,0 +1,29 @@
+table,
+th,
+td,
+tr {
+  border: white solid 1px;
+  text-align: center;
+  color: white;
+  padding: 3px 3px 3px 3px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  background-color: navy;
+}
+
+.score {
+  color: red;
+  font-weight: bold;
+}
+
+.example {
+  color: lime;
+  font-weight: bold;
+}
+
+th {
+  color: orange;
+}

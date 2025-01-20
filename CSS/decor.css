@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap");
+
+@font-face {
+  font-family: "Abril Fatface";
+  src: url("/fonts/AbrilFatface-Regular.ttf");
+}
+
 body {
   font-size: 24px;
   font-weight: 390;
@@ -70,4 +77,50 @@ span {
 
 .center {
   text-align: center;
+}
+
+.lspace {
+  letter-spacing: 10px;
+}
+
+.wspace {
+  word-spacing: 10px;
+}
+
+.lheight {
+  line-height: 3;
+}
+
+.whitespace {
+  white-space: nowrap;
+}
+
+.preformatted {
+  border: 1px solid;
+  white-space: pre;
+}
+
+.preformatted2 {
+  border: 1px solid;
+  white-space: pre-line;
+}
+
+.fonttxt {
+  font-family: "Sixtyfour Convergence", serif;
+}
+
+.fonttxt2 {
+  font-family: "Playwrite VN", serif;
+}
+
+.fonttxt3 {
+  font-family: "Abril Fatface", serif;
+}
+
+.icon {
+  font-size: 54px;
+  color: tomato;
+  background-color: aqua;
+  padding: 8px 12px;
+  border-radius: 40px;
 }

@@ -1,0 +1,80 @@
+.shapes {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.rect-ver {
+  height: 140px;
+  width: 70px;
+  border: 1px solid;
+  border-radius: 20px;
+  background: aqua;
+}
+
+.rect-hor {
+  height: 70px;
+  width: 140px;
+  border: 1px solid;
+  padding: 20px;
+  background: url("https://picsum.photos/id/237/300/200") center/100% no-repeat
+    yellow;
+  /* background-size: 140px 70px; other choice */
+  /*background-image: url("https://picsum.photos/id/237/300/200");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: yellow; */
+}
+
+.oval-ver {
+  height: 140px;
+  width: 70px;
+  border: 1px solid;
+  border-radius: 50%;
+  background: conic-gradient(red, orange, yellow, green, blue);
+}
+
+.oval-hor {
+  height: 70px;
+  width: 140px;
+  border: 1px solid;
+  border-radius: 50%;
+  background: linear-gradient(135deg, red 10%, blue 30%, green 100%);
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background: linear-gradient(
+    to top,
+    red,
+    blue,
+    green
+  ); /*to bottom, to top, to left, to right, 135deg (makes is go to corner to corner, add more then one color*/
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50px;
+  background: radial-gradient(red, blue);
+}
+
+.line-ver {
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
+
+.line-hor {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}

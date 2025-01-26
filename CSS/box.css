@@ -10,36 +10,50 @@
 }
 
 .outer-box {
-  width: 600px;
+  /* width: 600px; */
   height: 600px;
   background-color: orange;
   border: 2px solid black;
+  margin: 50px;
   padding: 40px;
 }
 
-/* Middle box */
 .middle-box {
   width: 100%; /* Automatically adjust to fit padding of parent */
   height: 100%;
   background-color: red;
   border: 2px solid black;
-  padding: 20px; /* Equal padding on all sides */
+  padding: 20px;
 }
 
-/* Inner box */
 .inner-box {
-  width: 75%; /* Automatically adjust to fit padding of parent */
+  width: 75%;
   height: 75%;
   background-color: green;
   border: 2px solid black;
   padding: 20px; /* Equal padding on all sides */
 }
 
-/* Core box */
 .core-box {
   width: 50%; /* Automatically adjust to fit padding of parent */
   height: 50%;
   background-color: blue;
   border: 2px solid black;
   padding: 20px; /* Equal padding on all sides */
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
 }

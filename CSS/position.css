@@ -1,0 +1,164 @@
+.section {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 3000px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 5px solid;
+  background-color: beige;
+  margin: 120px auto;
+}
+
+.item {
+  width: 30px;
+  height: 30px;
+}
+
+.sticky {
+  position: sticky;
+  top: 40px;
+  right: 30px;
+}
+
+.relative {
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+.static {
+  position: static;
+  width: auto;
+  left: 40px;
+  right: 60px;
+  top: 80px;
+  bottom: 20px;
+}
+
+.absolute {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+.fixed {
+  position: fixed;
+  top: 300px;
+  left: 300px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.index {
+  padding: 100px;
+  margin: 100px;
+  box-sizing: border-box;
+}
+
+.zcontainer {
+  width: 500px;
+  height: 500px;
+  border: 5px solid;
+  background-color: beige;
+  font-weight: bold;
+  margin: auto;
+}
+
+.z {
+  width: 100px;
+  height: 100px;
+}
+
+.items-red {
+  background-color: red;
+  font-weight: bold;
+}
+
+.items-green {
+  background-color: green;
+  font-weight: bold;
+}
+
+.items-blue {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.items-orange {
+  background-color: orange;
+  font-weight: bold;
+}
+
+.items-black {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+.relative1 {
+  position: relative;
+  padding: 5px;
+  top: 20px;
+  left: 30px;
+  z-index: 1;
+}
+
+.relative2 {
+  position: relative;
+  padding: 5px;
+  top: -80px;
+  left: 110px;
+  z-index: 3;
+}
+
+.relative3 {
+  position: relative;
+  padding: 5px;
+  top: -150px;
+  left: 20px;
+  z-index: 2;
+}
+
+.relative4 {
+  position: relative;
+  padding: 5px;
+  top: -130px;
+  left: 100px;
+  z-index: 5;
+}
+
+.relative5 {
+  position: relative;
+  padding: 5px;
+  top: -310px;
+  left: 60px;
+  z-index: 4;
+}

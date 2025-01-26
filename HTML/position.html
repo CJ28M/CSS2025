@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/position.css">
+  <title>Positioning</title>
+</head>
+
+<body>
+  <h1><u>Positioning</u></h1>
+
+  <div>
+    <ul>
+      <li class="pink"><b>Static</b>- Follows the normal flow</li>
+      <li class="green"><b>Relative</b>- Gets positioned relatively to its normal position</li>
+      <li class="red"><b>Absolute</b>- Gets absolutely positioned to nearest positioned parent or the html element</li>
+      <li class="blue"><b>Fixed</b>- Gets fixed positioned to the viewport</li>
+      <li class="orange"><b>Sticky</b>- Acts like a relatively positioned until it reaches the constraint value</li>
+      <ul>
+        <li class="orange">Then starts acting like a fixed element until it reaches the end of it's parent block.</li>
+        <li class="orange">Gets attached to the nearest scrolling mechanism</li>
+        <li class="orange">Then keeps acting like a relatively positioned element</li>
+      </ul>
+    </ul>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="item red absolute"></div>
+      <div class="item green relative"></div>
+      <div class="item blue fixed"></div>
+      <div class="item orange sticky"></div>
+      <div class="item pink static"></div>
+    </div>
+  </section>
+
+  <hr>
+  <h2>Z-Index</h2>
+  <p><b>Z-Index</b>- acts like layers (z-index: 1-99999) or auto=0</p>
+  <section class="index">
+    <div class="zcontainer"> Z- Index of 0 or Auto
+      <div class="z items-red relative1">1 index <br>of 1</div>
+      <div class="z items-green relative2">2 index <br>of 3</div>
+      <div class="z items-blue relative3">3 index <br>of 2</div>
+      <div class="z items-orange relative4">4 index <br>of 5</div>
+      <div class="z items-black relative5">5 index <br>of 4</div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

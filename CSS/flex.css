@@ -121,8 +121,73 @@ td {
 }
 
 .align {
-  width: 800px;
-  height: 360px;
+  width: 300px;
+  height: 300px;
   border: 5px solid black;
   display: flex;
+}
+
+.aflexend {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: center; */
+  margin: 10px;
+}
+
+.acenter {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+
+  /* justify-content: center; */
+  margin: 10px;
+}
+
+.column {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+  margin: 10px;
+}
+
+.columnr {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+
+  /* justify-content: center; */
+  margin: 10px;
+}
+
+.row {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+
+  /* justify-content: center; */
+  margin: 10px;
+}
+
+.rowr {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+
+  /* justify-content: center; */
+  margin: 10px;
 }

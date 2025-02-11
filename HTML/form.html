@@ -21,6 +21,12 @@
       <label for="firstName">First Name</label>
       <input id="firstName" name="first-name" type="text" placeholder="John" required>
     </div>
+
+    <div class="form-control">
+      <label for="flavor">Flavor</label>
+      <input id="flavor" name="flavor" type="text" list="ice-cream-flavors">
+    </div>
+
     <div class="form-control">
       <label for="lastName">Last Name</label>
       <input id="lastName" name="last-name" type="text" placeholder="Doe" required>
@@ -29,9 +35,59 @@
       <label for="Password">Password</label>
       <input id="Password" name="password" type="password" minlength="10" placeholder="At least 10 characters">
     </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="name@mcompany.zone">
+    </div>
+    <div class="form-control">
+      <label for="Avatar"></label>
+      <input type="file" name="file" id="avatar">
+    </div>
+
+    <fieldset class="form-group horizontal">
+      <legend>Your age</legend>
+      <div class="form-control">
+        <input type="radio" id="under18" name="age" value="under18">
+        <label for="under18">Under 18</label>
+      </div>
+      <div class="form-control">
+        <input type="radio" id="18to30" name="age" value="18to30">
+        <label for="18to30">18 - 30</label>
+      </div>
+      <div class="form-control">
+        <input type="radio" id="over30" name="age" value="over30">
+        <label for="over30">Over 30</label>
+      </div>
+    </fieldset>
+
+    <div class="form-group horizontal">
+      <p>Your interests</p>
+      <div class="form-control">
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+      </div>
+      <div class="form-control">
+        <input type="checkbox" id="art" name="interests" value="art">
+        <label for="art">Art</label>
+      </div>
+      <div class="form-control">
+        <input type="checkbox" id="hiking" name="interests" value="hiking">
+        <label for="hiking">Hiking</label>
+      </div>
+    </div>
+
     <input type="submit" value="Submit this data">
+    <button type="submit">Submit with button</button>
   </form>
 
+  <datalist id="ice-cream-flavors">
+    <option value="chocolate"></option>
+    <option value="coconut"></option>
+    <option value="mint"></option>
+    <option value="strawberry"></option>
+    <option value="vanilla"></option>
+
+  </datalist>
 
 </body>
 

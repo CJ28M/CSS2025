@@ -75,9 +75,88 @@
         <label for="hiking">Hiking</label>
       </div>
     </div>
+    <div class="form-control">
+      <label for="story">Tell us your story:</label>
+      <textarea name="story" id="story" rows="5" cols="33" placeholder="Tell us your story here..." required></textarea>
+    </div>
+
+    <div class="form-control">
+      <label for="pet-select">Choose a pet:</label>
+      <select name="pets" id="pet-select" size="4" multiple>
+        <option value=" " disabled>--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label for="city-select">Choose a city:</label>
+      <select name="city" id="city-select">
+        <option value="">--Please choose an option--</option>
+        <option value="ny">New York</option>
+        <option value="san-jose">San Jose</option>
+        <option value="nh">New Hampton</option>
+        <option value="middletown">Middletown</option>
+        <option value="mesa">Mesa</option>
+        <option value="chandler">Chandler</option>
+
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label for="color-select">Choose a color:</label>
+      <select name="color" id="color-select" required>
+        <option value="">--Please choose an option--</option>
+        <option value="purple" selected>Purple</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="orange">Orange</option>
+        <option value="red">Red</option>
+        <option value="pink">Pink</option>
+
+      </select>
+    </div class="form-control">
+
+    <label for="hr-select">Your favorite food</label>
+
+    <select name="foods" id="hr-select">
+      <option value="">Choose a food</option>
+      <hr />
+      <optgroup label="Fruit">
+        <option value="apple">Apples</option>
+        <option value="banana">Bananas</option>
+        <option value="cherry">Cherries</option>
+        <option value="damson">Damsons</option>
+      </optgroup>
+      <hr />
+      <optgroup label="Vegetables">
+        <option value="artichoke">Artichokes</option>
+        <option value="broccoli">Broccoli</option>
+        <option value="cabbage">Cabbages</option>
+      </optgroup>
+      <hr />
+      <optgroup label="Meat">
+        <option value="beef">Beef</option>
+        <option value="chicken">Chicken</option>
+        <option value="pork">Pork</option>
+      </optgroup>
+      <hr />
+      <optgroup label="Fish">
+        <option value="cod">Cod</option>
+        <option value="haddock">Haddock</option>
+        <option value="salmon">Salmon</option>
+        <option value="turbot">Turbot</option>
+      </optgroup>
+    </select>
 
     <input type="submit" value="Submit this data">
     <button type="submit">Submit with button</button>
+
   </form>
 
   <datalist id="ice-cream-flavors">

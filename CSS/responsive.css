@@ -1,0 +1,40 @@
+body {
+  color: red;
+}
+
+.tablet,
+.mobile {
+  display: none;
+}
+
+@media (min-width: 768px) AND (max-width: 1023px) {
+  .desktop {
+    display: none;
+  }
+
+  body {
+    color: green;
+  }
+
+  .tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  body {
+    color: blue;
+  }
+
+  .mobile {
+    display: block;
+  }
+}

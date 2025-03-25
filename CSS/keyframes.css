@@ -1,0 +1,13 @@
+* {
+  background-color: slateblue;
+}
+
+.codebox {
+  border: 1px solid black;
+  background-color: rgb(80, 78, 78);
+  white-space: pre-line;
+  padding: 10px;
+  font-size: 18px;
+  display: inline-block;
+  color: lime;
+}

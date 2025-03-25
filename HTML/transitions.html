@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transition</title>
+  <link rel="stylesheet" href="/CSS/transitions.css">
+</head>
+
+<body>
+  <h1>CSS Transitions</h1>
+
+  <div class="container">
+    <button class="btn-hover">Hover me</button>
+    <code class="codebox">HTML Hover Me:
+      < div class="container">
+        < button  class="btn-hover">Hover me</>< /div >
+    
+  </code>
+
+    <code class="codebox">CSS Hover Me:
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+      }
+
+      .btn-hover {
+        background-color: rgb(56, 102, 187);
+        color: white;
+        border: 1px solid rgb(56, 102, 187);
+        padding: 8px 12px;
+        border-radius: 10px;
+        transition: background-color 4s ease-in-out 2s, color 4s ease-in-out 2s;
+        /* transition: all 4s ease-in-out 2s; */
+        /* transition-delay: 2s;
+        transition-duration: 2s;
+        transition-property: background-color, color;
+        transition-timing-function: ease-in-out; */
+  </code>
+    <div class="box box-scale">I'll scale</div>
+    <div class="box box-move">I'll move</div>
+    <div class="box box-rotate">I'll rotate</div>
+    <div class="box box-disappear">I'll disappear</div>
+  </div>
+
+  <br>
+  <br>
+  <code class="codebox">HTML box's:
+    < div>  
+    < div div class="box box-scale">I'll scale< /div>
+    < div class="box box-move">I'll move< /div>
+    < div class="box box-rotate">I'll rotate< /div>
+    < div class="box box-disappear">I'll disappear< /div>
+    < /div>
+</code>
+
+  <code class="codebox">CSS box's:
+  * { 
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease-in-out;
+  }
+
+  .box-scale {
+    background-color: aqua;
+  }
+
+  .box-scale:hover {
+    transform: scale(1.4) translateX(100px);
+  }
+
+  .box-move {
+    background-color: beige;
+  }
+
+  .box-move:hover {
+    transform: translateX(40px);
+  }
+
+  .box-rotate {
+    background-color: cadetblue;
+  }
+
+  .box-rotate:hover {
+    transform: rotate(30deg);
+  }
+
+  .box-disappear {
+    background-color: blueviolet;
+  }
+
+  .box-disappear:hover {
+    opacity: 0;
+  }
+
+</code>
+
+
+
+
+</body>
+
+</html>
